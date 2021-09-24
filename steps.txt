@@ -1,0 +1,59 @@
+1) Open de command line
+
+2) change the disk just type D:
+
+3)D:\ mkdir myfolder //create a new folder inside D disk
+
+4) cd myfolder //get into a certain folder
+4.5)cd.. //leave actual folder
+
+5)D:\test_git>git init //Initialized empty Git repository in D:/test_git/.git/
+
+6)D:\test_git>git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+7)D:\test_git>git config --global user.email "noel_onofre@hotmail.com"
+D:\test_git>git config --global user.name "Noel"
+
+8)D:\test_git>git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+
+9)D:\test_git>git add steps.txt (git add 'Filename')
+
+
+10)D:\test_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   steps.txt
+
+11) D:\test_git>git commit -m "added steps.txt"
+[master (root-commit) 6531af0] added steps.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 steps.txt
+
+12) D:\test_git>git add . //adds everything.
+//you can also use git add steps.txt
+
+13) Remember to always save the modifications on your file
+
+"Working on the new branch"
+
